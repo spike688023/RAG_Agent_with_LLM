@@ -1,0 +1,13 @@
+version: '3'
+services:
+  frontend:
+    volumes: 
+      - ./docstore_index/:/docstore_index/
+    build: ./frontend
+    ports:
+      - "8090:8090"
+  lab:
+    build: ./lab
+    ports:
+      - "9012:9012"
+

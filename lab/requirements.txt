@@ -1,0 +1,8 @@
+fastapi
+langchain
+langchain-nvidia-ai-endpoints
+langserve
+faiss-cpu
+uvicorn
+langchain_community
+sse_starlette
