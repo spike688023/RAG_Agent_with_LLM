@@ -1,5 +1,7 @@
 docker-compose up --build
 
+
+
 Reference:
 
 Docker Compose 與 Container 網路共用說明
@@ -46,6 +48,10 @@ Framework: FastAPI + Gunicorn + Uvicorn
 Container: rag_agent_with_llm-lab-1
 Port: 9012
 Framework: Uvicorn (FastAPI)
+
+這裡的後端，是做給 FAISS 做向量查找的。
+語言模型那端，是用雲端，跟Nvidia server 溝通的，
+所以才要提供 API key
 
 
 📌 功能：後端實驗 / 模型服務層
